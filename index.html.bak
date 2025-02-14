@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guru - Valentine's Card</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+
+    <div id="shine">
+        Happy Valentine's Day 💞
+        <center>My Soul</center>
+        <br><br>
+
+        <div class="gallery">
+            <img src="https://i.postimg.cc/qz34R1zQ/20200711-161742-Original.jpg" alt="a lovely kiss in the night">
+            <img src="https://i.postimg.cc/FYXmJ0Sv/20200912-165541-Original.jpg" alt="a woman inside a car">
+            <img src="https://i.postimg.cc/ftRMRZ90/20220313-171238-Original.jpg" alt="a baby">
+        </div>
+        <br>
+        <button onclick="opencard()">Click To Open!</button>
+    </div>
+
+    <div id="message">
+        <h1 class="letter-title">A Letter to My Soul!</h1>
+        <p class="letter-text">
+            
+             There aren’t enough words in the world to express how deeply I feel for you, but I’ll try. In every moment, you show me a love that goes beyond the traditional. You’ve never just been my husband—you’ve been my best friend, my biggest supporter, and the one person who has cared for me like I’m the most important thing in the world. You’ve treated me like a princess, with kindness, patience, and so much tenderness. <br><br>
+                You’ve always been there for me in ways I never expected, offering a constant presence of love and understanding. When I needed someone to lean on, you were there, never asking for anything in return, only wanting to see me happy. I’m not sure how I got so lucky, but I thank the stars every day for you. <br><br>
+                You’re not just my partner; you’re my heart’s safest place. You’ve never treated me like “just a wife”—you’ve been my everything. You make me feel cherished in ways I can hardly put into words. And even though life’s journey might not always fit the typical mold, you’ve shown me that love doesn’t need to be conventional—it just needs to be real. <br><br>
+                Thank you for being the incredible person you are. I’m so proud to have you by my side, and I’ll forever cherish the bond we share. You are not only my husband but my best friend, my protector, and the love of my life. <br><br>
+                With all my love, <br>
+                Your Deepi.
+        </p>
+        <br>
+        <button onclick="nextPage()">Click To Next Page!</button>
+    </div>
+
+    <div id="nextPage">
+        <h1 class="letter-title">For You, My Love</h1>
+        <img src="https://i.postimg.cc/0bjHDSxJ/40.jpg" alt="card">
+        <img src="https://i.postimg.cc/phcR97fc/Screenshot-20220122-184222-Gallery-Original.jpg" alt="a couple's selfie">
+        <br>
+        <button onclick="closecard()">Click To Close!</button>
+    </div>
+
+    <audio id="background-audio" loop>
+        <source src="Oru Paarvaiyil - Video Song  Siva Manasula Sakthi  Yuvan Shankar Raja  Jiiva  Sun Music.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

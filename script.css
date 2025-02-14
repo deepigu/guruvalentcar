@@ -45,7 +45,7 @@ body {
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
   width: 220px;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .gallery > img {
